@@ -10,6 +10,7 @@
 #include "Leap.h"
 using namespace Leap;
 
+
 class SampleListener : public Listener {
   public:
     virtual void onInit(const Controller&);
@@ -25,12 +26,14 @@ void SampleListener::onInit(const Controller& controller) {
   std::cout << "Initialized" << std::endl;
 }
 
+
 void SampleListener::onConnect(const Controller& controller) {
   std::cout << "Connected" << std::endl;
   controller.enableGesture(Gesture::TYPE_CIRCLE);
   controller.enableGesture(Gesture::TYPE_KEY_TAP);
   controller.enableGesture(Gesture::TYPE_SCREEN_TAP);
   controller.enableGesture(Gesture::TYPE_SWIPE);
+    
 
 }
 
@@ -65,6 +68,7 @@ void SampleListener::onFrame(const Controller& controller) {
       for (int i = 0; i < fingers.count(); ++i) {
         avgPos += fingers[i].tipPosition();
       }
+        std::cout<<"fingertips"<<std::endl<<fingers[0].tipPosition();
       avgPos /= (float)fingers.count();
       std::cout << "Hand has " << fingers.count()
                 << " fingers, average finger tip position" << avgPos << std::endl;
@@ -72,7 +76,47 @@ void SampleListener::onFrame(const Controller& controller) {
 
     // Get the hand's sphere radius and palm position
     std::cout << "Hand sphere radius: " << hand.sphereRadius()
-              << " mm, palm position: " << hand.palmPosition() << std::endl;
+      << " mm, palm position: " << hand.palmPosition() << std::endl
+              << "velocity:"<<hand.palmVelocity()<<std::endl;
+      //with green light facing you, palm.Position[left: - , right: +][up:+ down:-][forward:- back:+]
+
+      
+      
+      //send hand.palmVelocity()[0] left right velocity
+      //send hand.palmVelocity()[1] up down velocity
+      //send hand.palmVelocity()[2] forward back velocity
+      //
+      if ( hand.palmVelocity()[1]>500)
+      {
+          std::cout<<"GOING UP";
+          exit(1);
+      }
+      if (hand.palmVelocity()[1]<-500 )
+      { 
+          std::cout<<"GOING DOWN";
+          exit(1);
+      }
+      if ( hand.palmVelocity()[0] > 500 )
+      {
+          std::cout<<"GOING RIGHT";
+          exit(1);
+      }
+      if (hand.palmVelocity()[0] < -500 )
+      {
+          std::cout<<"GOING LEFT";
+          exit(1);
+      }
+      if (hand.palmVelocity()[2] > 500 )
+      {
+          std::cout<<"GOING BACK";
+          exit(1);
+      }
+      if ( hand.palmVelocity()[2] < -500 )
+      {
+          std::cout<<"GOING FORWARD";
+          exit(1);
+      }
+  
 
     // Get the hand's normal vector and direction
     const Vector normal = hand.palmNormal();
@@ -80,7 +124,9 @@ void SampleListener::onFrame(const Controller& controller) {
 
     // Calculate the hand's pitch, roll, and yaw angles
     std::cout << "Hand pitch: " << direction.pitch() * RAD_TO_DEG << " degrees, "
+                //wrist up and down motion
               << "roll: " << normal.roll() * RAD_TO_DEG << " degrees, "
+                //wrist left and right
               << "yaw: " << direction.yaw() * RAD_TO_DEG << " degrees" << std::endl;
   }
 
@@ -118,6 +164,8 @@ void SampleListener::onFrame(const Controller& controller) {
       case Gesture::TYPE_SWIPE:
       {
         SwipeGesture swipe = gesture;
+          std::cout<<"YOU SWIPED!!!!";
+         // exit(1);
         std::cout << "Swipe id: " << gesture.id()
           << ", state: " << gesture.state()
           << ", direction: " << swipe.direction()
@@ -127,6 +175,8 @@ void SampleListener::onFrame(const Controller& controller) {
       case Gesture::TYPE_KEY_TAP:
       {
         KeyTapGesture tap = gesture;
+          std::cout<<"YOU TAPPED!!!";
+          //exit(1);
         std::cout << "Key Tap id: " << gesture.id()
           << ", state: " << gesture.state()
           << ", position: " << tap.position()
