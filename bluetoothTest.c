@@ -1,3 +1,6 @@
+// Install the BlueZ library, then compile with
+// gcc -o simplescan simplescan.c -lbluetooth
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
