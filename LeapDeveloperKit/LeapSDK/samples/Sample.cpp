@@ -85,7 +85,20 @@ void SampleListener::onFrame(const Controller& controller) {
       //send hand.palmVelocity()[0] left right velocity
       //send hand.palmVelocity()[1] up down velocity
       //send hand.palmVelocity()[2] forward back velocity
-      //
+      //motors
+      //0 = claw
+      //1= wrist movement
+      //2=up and down
+      //3=forward and back
+      //4=swivel left right
+      
+      //velocity -1 to 1
+      
+      
+      
+      
+      
+      
       if ( hand.palmVelocity()[1]>500)
       {
           std::cout<<"GOING UP";
