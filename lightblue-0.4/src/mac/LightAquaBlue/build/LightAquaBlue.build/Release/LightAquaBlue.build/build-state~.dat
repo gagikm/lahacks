@@ -1,0 +1,962 @@
+TLightAquaBlue
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/Info.plist /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/Info.plist
+cSymLink /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/Release/LightAquaBlue.framework /Library/Frameworks/LightAquaBlue.framework
+cCpHeader BBBluetoothOBEXClient.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBBluetoothOBEXClient.h
+cCpHeader BBBluetoothOBEXServer.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBBluetoothOBEXServer.h
+cCpHeader BBStreamingInputStream.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBStreamingInputStream.h
+cCpHeader BBLocalDevice.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBLocalDevice.h
+cCpHeader BBMutableOBEXHeaderSet.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBMutableOBEXHeaderSet.h
+cCpHeader BBOBEXHeaderSet.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBOBEXHeaderSet.h
+cCpHeader BBOBEXRequest.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBOBEXRequest.h
+cCpHeader BBOBEXRequestHandler.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBOBEXRequestHandler.h
+cCpHeader BBServiceAdvertiser.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBServiceAdvertiser.h
+cCpHeader LightAquaBlue.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/LightAquaBlue.h
+cCpHeader BBStreamingOutputStream.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBStreamingOutputStream.h
+cCpHeader BBBluetoothChannelDelegate.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBBluetoothChannelDelegate.h
+cCpHeader BBOBEXResponse.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBOBEXResponse.h
+cCopyStringsFile /Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCopyPlistFile /Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/OBEXFileTransferDictionary.plist OBEXFileTransferDictionary.plist
+cCopyPlistFile /Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/OBEXObjectPushDictionary.plist OBEXObjectPushDictionary.plist
+cCopyPlistFile /Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/SerialPortDictionary.plist SerialPortDictionary.plist
+cCpResource BridgeSupport /Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/BridgeSupport
+cProcessPCH /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/LightAquaBlue_Prefix-convockacmohgsgglnmrpktmnwaq/LightAquaBlue_Prefix.pch.pch LightAquaBlue_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBBluetoothOBEXClient.o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothOBEXClient.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBBluetoothOBEXServer.o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothOBEXServer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBStreamingInputStream.o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBStreamingInputStream.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBLocalDevice.o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBLocalDevice.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBMutableOBEXHeaderSet.o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBMutableOBEXHeaderSet.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXHeaderSet.o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXHeaderSet.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXRequest.o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXRequest.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXRequestHandler.o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXRequestHandler.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBServiceAdvertiser.o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBServiceAdvertiser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBStreamingOutputStream.o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBStreamingOutputStream.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBBluetoothChannelDelegate.o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothChannelDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXResponse.o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXResponse.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Library/Frameworks/LightAquaBlue.framework/Versions/A/LightAquaBlue normal i386
+cTouch /Library/Frameworks/LightAquaBlue.framework
+cStrip /Library/Frameworks/LightAquaBlue.framework/Versions/A/LightAquaBlue
+cSetOwnerAndGroup root:wheel /Library/Frameworks/LightAquaBlue.framework
+cSetMode u+w,go-w,a+rX /Library/Frameworks/LightAquaBlue.framework
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c000000005321750C00000000000000AA
+t1394701580
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c00000000527A7CF5000000000000044C
+t1383759093
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000532174D200000000000001DE
+t1394701522
+s478
+
+N/Library/Frameworks/LightAquaBlue.framework
+t1397338002
+s204
+
+N/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBBluetoothChannelDelegate.h
+t1397338002
+s1692
+
+N/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBBluetoothOBEXClient.h
+t1397338002
+s12375
+
+N/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBBluetoothOBEXServer.h
+t1397338002
+s9992
+
+N/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBLocalDevice.h
+t1397338002
+s1448
+
+N/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBMutableOBEXHeaderSet.h
+t1397338002
+s5009
+
+N/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBOBEXHeaderSet.h
+t1397338002
+s4908
+
+N/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBOBEXRequest.h
+t1397338002
+s3512
+
+N/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBOBEXRequestHandler.h
+t1397338002
+s3391
+
+N/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBOBEXResponse.h
+t1397338002
+s1938
+
+N/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBServiceAdvertiser.h
+t1397338002
+s2483
+
+N/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBStreamingInputStream.h
+t1397338002
+s1351
+
+N/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBStreamingOutputStream.h
+t1397338002
+s1309
+
+N/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/LightAquaBlue.h
+t1397338002
+s552
+
+N/Library/Frameworks/LightAquaBlue.framework/Versions/A/LightAquaBlue
+t1397338033
+s84600
+
+N/Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/BridgeSupport
+t1397338002
+s102
+
+N/Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/English.lproj/InfoPlist.strings
+t1397338002
+s184
+
+N/Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/Info.plist
+t1397338002
+s1096
+
+N/Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/OBEXFileTransferDictionary.plist
+t1397338002
+s1888
+
+N/Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/OBEXObjectPushDictionary.plist
+t1397338002
+s1888
+
+N/Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/SerialPortDictionary.plist
+t1397338002
+s1838
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c00000000526758AC00000000000066C0
+t1382504620
+s26304
+
+N/System/Library/Frameworks/IOBluetooth.framework/IOBluetooth
+c0000000053105A9000000000001F4BD0
+t1393580688
+s2051024
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothChannelDelegate.h
+c000000005004D350000000000000069C
+t1342493520
+s1692
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothChannelDelegate.m
+c000000005004D3500000000000000B6B
+t1342493520
+s2923
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothOBEXClient.h
+c000000005004D3500000000000003057
+t1342493520
+s12375
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothOBEXClient.m
+c000000005004D3500000000000003068
+t1342493520
+s12392
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothOBEXServer.h
+c000000005004D3500000000000002708
+t1342493520
+s9992
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothOBEXServer.m
+c000000005004D3500000000000002252
+t1342493520
+s8786
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBLocalDevice.h
+c000000005004D35000000000000005A8
+t1342493520
+s1448
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBLocalDevice.m
+c000000005004D350000000000000056B
+t1342493520
+s1387
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBMutableOBEXHeaderSet.h
+c000000005004D3500000000000001391
+t1342493520
+s5009
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBMutableOBEXHeaderSet.m
+c000000005004D3500000000000002711
+t1342493520
+s10001
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXHeaderSet.h
+c000000005004D350000000000000132C
+t1342493520
+s4908
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXHeaderSet.m
+c000000005004D3500000000000003055
+t1342493520
+s12373
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXRequest.h
+c000000005004D3500000000000000DB8
+t1342493520
+s3512
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXRequest.m
+c000000005004D3500000000000005E3F
+t1342493520
+s24127
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXRequestHandler.h
+c000000005004D3500000000000000D3F
+t1342493520
+s3391
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXRequestHandler.m
+c000000005004D3500000000000007F08
+t1342493520
+s32520
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXResponse.h
+c000000005004D3500000000000000792
+t1342493520
+s1938
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXResponse.m
+c000000005004D35000000000000015A3
+t1342493520
+s5539
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBServiceAdvertiser.h
+c000000005004D35000000000000009B3
+t1342493520
+s2483
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBServiceAdvertiser.m
+c000000005004D35000000000000012E4
+t1342493520
+s4836
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBStreamingInputStream.h
+c000000005004D3500000000000000547
+t1342493520
+s1351
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBStreamingInputStream.m
+c000000005004D3500000000000000884
+t1342493520
+s2180
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBStreamingOutputStream.h
+c000000005004D350000000000000051D
+t1342493520
+s1309
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBStreamingOutputStream.m
+c000000005004D35000000000000007DC
+t1342493520
+s2012
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BridgeSupport
+c000000005004D3500000000000000066
+t1342493520
+s102
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/English.lproj/InfoPlist.strings
+c000000005004D35000000000000000B8
+t1342493520
+s184
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/Info.plist
+c000000005004D350000000000000030D
+t1342493520
+s781
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/LightAquaBlue.h
+c000000005004D3500000000000000228
+t1342493520
+s552
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/LightAquaBlue_Prefix.pch
+c000000005004D350000000000000009E
+t1342493520
+s158
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/OBEXFileTransferDictionary.plist
+c000000005004D3500000000000000760
+t1342493520
+s1888
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/OBEXObjectPushDictionary.plist
+c000000005004D3500000000000000760
+t1342493520
+s1888
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/SerialPortDictionary.plist
+c000000005004D350000000000000072E
+t1342493520
+s1838
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBBluetoothChannelDelegate.o
+t1397338027
+s4312
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBBluetoothOBEXClient.o
+t1397338027
+s14196
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBBluetoothOBEXServer.o
+t1397338027
+s10440
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBLocalDevice.o
+t1397338027
+s2352
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBMutableOBEXHeaderSet.o
+t1397338027
+s10984
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXHeaderSet.o
+t1397338027
+s16336
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXRequest.o
+t1397338027
+s25820
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXRequestHandler.o
+t1397338027
+s30868
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXResponse.o
+t1397338027
+s6956
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBServiceAdvertiser.o
+t1397338027
+s6124
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBStreamingInputStream.o
+t1397338027
+s3412
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBStreamingOutputStream.o
+t1397338027
+s3324
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/LightAquaBlue.LinkFileList
+c000000005349AF910000000000000865
+t1397338001
+s2149
+
+N/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/Release/LightAquaBlue.framework
+t2
+s0
+
+N/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/LightAquaBlue_Prefix-convockacmohgsgglnmrpktmnwaq/LightAquaBlue_Prefix.pch.pch
+t1397338022
+s14300504
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies583a2f11e7f9b841^06d4fb11e7f9b841^---0#1#1#--18"Check dependencies36"7D3815DA-E290-473A-A6BD-48749609E287-
+
+CCompileC build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBBluetoothChannelDelegate.o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothChannelDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419030827.659245
+e419030827.818892
+r1
+xCompileC
+xbuild/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBBluetoothChannelDelegate.o
+x/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothChannelDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothChannelDelegate.m
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothChannelDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothChannelDelegate.m224"[1mCompileC[0m build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBBluetoothChannelDelegate.o [1mBBBluetoothChannelDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler25e7a82be7f9b841^17a0d12be7f9b841^---0#0#1#-19%DVTDocumentLocation2@120"file:///Users/Gageek/Dropbox/Computer%20Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothChannelDelegate.m0000000000000000^3168"[1mCompileC[0m build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBBluetoothChannelDelegate.o [1mBBBluetoothChannelDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=179 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -Wno-sign-conversion -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/LightAquaBlue.hmap -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/DerivedSources/i386 -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/DerivedSources -F/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/Release -include /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/LightAquaBlue_Prefix-convockacmohgsgglnmrpktmnwaq/LightAquaBlue_Prefix.pch -MMD -MT dependencies -MF /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBBluetoothChannelDelegate.d --serialize-diagnostics /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBBluetoothChannelDelegate.dia -c /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothChannelDelegate.m -o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBBluetoothChannelDelegate.o36"C4CCE631-6E2A-4367-A400-77A351B53BA3-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CCompileC build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBBluetoothOBEXClient.o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothOBEXClient.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419030822.914927
+e419030827.657460
+r1
+xCompileC
+xbuild/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBBluetoothOBEXClient.o
+x/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothOBEXClient.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothOBEXClient.m
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothOBEXClient.h
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBMutableOBEXHeaderSet.h
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXHeaderSet.h
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXRequest.h
+o[1m/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothOBEXClient.m:48:82: [0m[0;1;35mwarning: [0m[1m'withAddress:' is deprecated: first deprecated in OS X
+o      10.7 [-Wdeprecated-declarations][0m
+o    mSession = [[IOBluetoothOBEXSession alloc] initWithDevice:[IOBluetoothDevice withAddress:deviceAddress]
+o[0;1;32m                                                                                 ^
+o[0mIn file included from /Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothOBEXClient.m:30:
+o[1m/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOBluetooth.framework/Headers/objc/IOBluetoothDevice.h:160:1: [0m[0;1;30mnote: [0m
+o      method 'withAddress:' declared here[0m
+o+ (IOBluetoothDevice *)withAddress:(const BluetoothDeviceAddress *)address DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER;
+o[0;1;32m^
+o[0m1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothOBEXClient.m214"[1mCompileC[0m build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBBluetoothOBEXClient.o [1mBBBluetoothOBEXClient.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler3656ea26e7f9b841^7958a82be7f9b841^-1002"[1m/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothOBEXClient.m:48:82: [0m[0;1;35mwarning: [0m[1m'withAddress:' is deprecated: first deprecated in OS X      10.7 [-Wdeprecated-declarations][0m    mSession = [[IOBluetoothOBEXSession alloc] initWithDevice:[IOBluetoothDevice withAddress:deviceAddress][0;1;32m                                                                                 ^[0mIn file included from /Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothOBEXClient.m:30:[1m/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOBluetooth.framework/Headers/objc/IOBluetoothDevice.h:160:1: [0m[0;1;30mnote: [0m      method 'withAddress:' declared here[0m+ (IOBluetoothDevice *)withAddress:(const BluetoothDeviceAddress *)address DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER;[0;1;32m^[0m1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@59"'withAddress:' is deprecated: first deprecated in OS X 10.7-419030827#18446744073709551615#0#1(2@35"Method 'withAddress:' declared here-419030827#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@186"file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOBluetooth.framework/Headers/objc/IOBluetoothDevice.h0000000000000000^159#0#159#0#7785#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@115"file:///Users/Gageek/Dropbox/Computer%20Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothOBEXClient.m0000000000000000^47#81#47#81#1495#0#12"Deprecations--0#0#1#-19%DVTDocumentLocation4@115"file:///Users/Gageek/Dropbox/Computer%20Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothOBEXClient.m0000000000000000^3138"[1mCompileC[0m build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBBluetoothOBEXClient.o [1mBBBluetoothOBEXClient.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=179 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -Wno-sign-conversion -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/LightAquaBlue.hmap -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/DerivedSources/i386 -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/DerivedSources -F/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/Release -include /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/LightAquaBlue_Prefix-convockacmohgsgglnmrpktmnwaq/LightAquaBlue_Prefix.pch -MMD -MT dependencies -MF /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBBluetoothOBEXClient.d --serialize-diagnostics /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBBluetoothOBEXClient.dia -c /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothOBEXClient.m -o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBBluetoothOBEXClient.o36"E2787300-A6D9-4D40-865E-6C8035F628B3-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CCompileC build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBBluetoothOBEXServer.o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothOBEXServer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419030822.915234
+e419030827.219944
+r1
+xCompileC
+xbuild/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBBluetoothOBEXServer.o
+x/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothOBEXServer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothOBEXServer.m
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothOBEXServer.h
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXRequestHandler.h
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXHeaderSet.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothOBEXServer.m214"[1mCompileC[0m build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBBluetoothOBEXServer.o [1mBBBluetoothOBEXServer.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler4562ea26e7f9b841^5d4f382be7f9b841^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/Gageek/Dropbox/Computer%20Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothOBEXServer.m0000000000000000^3138"[1mCompileC[0m build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBBluetoothOBEXServer.o [1mBBBluetoothOBEXServer.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=179 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -Wno-sign-conversion -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/LightAquaBlue.hmap -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/DerivedSources/i386 -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/DerivedSources -F/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/Release -include /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/LightAquaBlue_Prefix-convockacmohgsgglnmrpktmnwaq/LightAquaBlue_Prefix.pch -MMD -MT dependencies -MF /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBBluetoothOBEXServer.d --serialize-diagnostics /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBBluetoothOBEXServer.dia -c /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothOBEXServer.m -o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBBluetoothOBEXServer.o36"A88902B4-41F6-4BFE-A9DC-086269C7B8CE-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CCompileC build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBLocalDevice.o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBLocalDevice.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419030822.916326
+e419030827.219445
+r1
+xCompileC
+xbuild/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBLocalDevice.o
+x/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBLocalDevice.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBLocalDevice.m
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBLocalDevice.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBLocalDevice.m198"[1mCompileC[0m build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBLocalDevice.o [1mBBLocalDevice.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera4a9ea26e7f9b841^282d382be7f9b841^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/Gageek/Dropbox/Computer%20Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBLocalDevice.m0000000000000000^3090"[1mCompileC[0m build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBLocalDevice.o [1mBBLocalDevice.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=179 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -Wno-sign-conversion -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/LightAquaBlue.hmap -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/DerivedSources/i386 -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/DerivedSources -F/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/Release -include /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/LightAquaBlue_Prefix-convockacmohgsgglnmrpktmnwaq/LightAquaBlue_Prefix.pch -MMD -MT dependencies -MF /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBLocalDevice.d --serialize-diagnostics /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBLocalDevice.dia -c /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBLocalDevice.m -o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBLocalDevice.o36"5759152F-B208-4044-BAA1-E2CA6AFE5DDD-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CCompileC build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBMutableOBEXHeaderSet.o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBMutableOBEXHeaderSet.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419030827.203570
+e419030827.641647
+r1
+xCompileC
+xbuild/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBMutableOBEXHeaderSet.o
+x/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBMutableOBEXHeaderSet.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBMutableOBEXHeaderSet.m
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBMutableOBEXHeaderSet.h
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXHeaderSet.h
+o[1m/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBMutableOBEXHeaderSet.m:209:16: [0m[0;1;35mwarning: [0m[1mcomparison of unsigned expression < 0 is always false
+o      [-Wtautological-compare][0m
+o    if (length < 0)
+o[0;1;32m        ~~~~~~ ^ ~
+o[0m[1m/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBMutableOBEXHeaderSet.m:219:16: [0m[0;1;35mwarning: [0m[1mcomparison of unsigned expression < 0 is always false
+o      [-Wtautological-compare][0m
+o    if (length < 0)
+o[0;1;32m        ~~~~~~ ^ ~
+o[0m2 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Compile /Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBMutableOBEXHeaderSet.m216"[1mCompileC[0m build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBMutableOBEXHeaderSet.o [1mBBMutableOBEXHeaderSet.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler083c342be7f9b841^6342a42be7f9b841^-604"[1m/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBMutableOBEXHeaderSet.m:209:16: [0m[0;1;35mwarning: [0m[1mcomparison of unsigned expression < 0 is always false      [-Wtautological-compare][0m    if (length < 0)[0;1;32m        ~~~~~~ ^ ~[0m[1m/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBMutableOBEXHeaderSet.m:219:16: [0m[0;1;35mwarning: [0m[1mcomparison of unsigned expression < 0 is always false      [-Wtautological-compare][0m    if (length < 0)[0;1;32m        ~~~~~~ ^ ~[0m2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@53"Comparison of unsigned expression < 0 is always false-419030827#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@116"file:///Users/Gageek/Dropbox/Computer%20Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBMutableOBEXHeaderSet.m0000000000000000^208#15#208#15#6337#0#14"Semantic Issue2(3@116"file:///Users/Gageek/Dropbox/Computer%20Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBMutableOBEXHeaderSet.m0000000000000000^208#8#208#14#6330#0#3@116"file:///Users/Gageek/Dropbox/Computer%20Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBMutableOBEXHeaderSet.m0000000000000000^208#17#208#18#6339#0#-2@53"Comparison of unsigned expression < 0 is always false-419030827#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@116"file:///Users/Gageek/Dropbox/Computer%20Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBMutableOBEXHeaderSet.m0000000000000000^218#15#218#15#6602#0#14"Semantic Issue2(3@116"file:///Users/Gageek/Dropbox/Computer%20Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBMutableOBEXHeaderSet.m0000000000000000^218#8#218#14#6595#0#3@116"file:///Users/Gageek/Dropbox/Computer%20Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBMutableOBEXHeaderSet.m0000000000000000^218#17#218#18#6604#0#-0#0#1#-19%DVTDocumentLocation4@116"file:///Users/Gageek/Dropbox/Computer%20Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBMutableOBEXHeaderSet.m0000000000000000^3144"[1mCompileC[0m build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBMutableOBEXHeaderSet.o [1mBBMutableOBEXHeaderSet.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=179 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -Wno-sign-conversion -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/LightAquaBlue.hmap -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/DerivedSources/i386 -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/DerivedSources -F/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/Release -include /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/LightAquaBlue_Prefix-convockacmohgsgglnmrpktmnwaq/LightAquaBlue_Prefix.pch -MMD -MT dependencies -MF /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBMutableOBEXHeaderSet.d --serialize-diagnostics /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBMutableOBEXHeaderSet.dia -c /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBMutableOBEXHeaderSet.m -o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBMutableOBEXHeaderSet.o36"8C1107D3-85BC-4C9F-96BA-82EA9B71024C-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CCompileC build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXHeaderSet.o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXHeaderSet.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419030827.219807
+e419030827.520222
+r1
+xCompileC
+xbuild/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXHeaderSet.o
+x/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXHeaderSet.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXHeaderSet.m
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXHeaderSet.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXHeaderSet.m202"[1mCompileC[0m build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXHeaderSet.o [1mBBOBEXHeaderSet.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf679382be7f9b841^fd2d852be7f9b841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/Gageek/Dropbox/Computer%20Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXHeaderSet.m0000000000000000^3102"[1mCompileC[0m build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXHeaderSet.o [1mBBOBEXHeaderSet.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=179 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -Wno-sign-conversion -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/LightAquaBlue.hmap -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/DerivedSources/i386 -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/DerivedSources -F/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/Release -include /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/LightAquaBlue_Prefix-convockacmohgsgglnmrpktmnwaq/LightAquaBlue_Prefix.pch -MMD -MT dependencies -MF /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXHeaderSet.d --serialize-diagnostics /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXHeaderSet.dia -c /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXHeaderSet.m -o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXHeaderSet.o36"CFAB6026-9F5B-4606-967B-BB3A5C61B521-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CCompileC build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXRequest.o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXRequest.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419030827.221314
+e419030827.519595
+r1
+xCompileC
+xbuild/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXRequest.o
+x/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXRequest.m
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXRequest.h
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothOBEXClient.h
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBMutableOBEXHeaderSet.h
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXHeaderSet.h
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXResponse.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXRequest.m198"[1mCompileC[0m build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXRequest.o [1mBBOBEXRequest.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler1fd9382be7f9b841^9204852be7f9b841^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/Gageek/Dropbox/Computer%20Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXRequest.m0000000000000000^3090"[1mCompileC[0m build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXRequest.o [1mBBOBEXRequest.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=179 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -Wno-sign-conversion -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/LightAquaBlue.hmap -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/DerivedSources/i386 -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/DerivedSources -F/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/Release -include /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/LightAquaBlue_Prefix-convockacmohgsgglnmrpktmnwaq/LightAquaBlue_Prefix.pch -MMD -MT dependencies -MF /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXRequest.d --serialize-diagnostics /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXRequest.dia -c /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXRequest.m -o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXRequest.o36"23CE68C2-2924-492C-BE4C-213651DF786E-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CCompileC build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXRequestHandler.o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXRequestHandler.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419030827.520300
+e419030828.076966
+r1
+xCompileC
+xbuild/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXRequestHandler.o
+x/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXRequestHandler.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXRequestHandler.m
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXRequestHandler.h
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothOBEXServer.h
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBMutableOBEXHeaderSet.h
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXHeaderSet.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compile /Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXRequestHandler.m212"[1mCompileC[0m build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXRequestHandler.o [1mBBOBEXRequestHandler.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler376e852be7f9b841^d5b4132ce7f9b841^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/Gageek/Dropbox/Computer%20Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXRequestHandler.m0000000000000000^3132"[1mCompileC[0m build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXRequestHandler.o [1mBBOBEXRequestHandler.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=179 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -Wno-sign-conversion -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/LightAquaBlue.hmap -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/DerivedSources/i386 -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/DerivedSources -F/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/Release -include /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/LightAquaBlue_Prefix-convockacmohgsgglnmrpktmnwaq/LightAquaBlue_Prefix.pch -MMD -MT dependencies -MF /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXRequestHandler.d --serialize-diagnostics /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXRequestHandler.dia -c /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXRequestHandler.m -o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXRequestHandler.o36"7076DB53-B232-4186-9610-80A364C3C6E6-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CCompileC build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXResponse.o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXResponse.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419030827.766016
+e419030827.926499
+r1
+xCompileC
+xbuild/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXResponse.o
+x/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXResponse.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXResponse.m
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXResponse.h
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXHeaderSet.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXResponse.m200"[1mCompileC[0m build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXResponse.o [1mBBOBEXResponse.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler4e47c42be7f9b841^1b2fed2be7f9b841^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/Gageek/Dropbox/Computer%20Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXResponse.m0000000000000000^3096"[1mCompileC[0m build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXResponse.o [1mBBOBEXResponse.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=179 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -Wno-sign-conversion -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/LightAquaBlue.hmap -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/DerivedSources/i386 -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/DerivedSources -F/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/Release -include /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/LightAquaBlue_Prefix-convockacmohgsgglnmrpktmnwaq/LightAquaBlue_Prefix.pch -MMD -MT dependencies -MF /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXResponse.d --serialize-diagnostics /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXResponse.dia -c /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXResponse.m -o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXResponse.o36"E7F5AFC4-2586-4E92-AB8D-06B5902334F2-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CCompileC build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBServiceAdvertiser.o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBServiceAdvertiser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419030827.521123
+e419030827.818272
+r1
+xCompileC
+xbuild/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBServiceAdvertiser.o
+x/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBServiceAdvertiser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBServiceAdvertiser.m
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBServiceAdvertiser.h
+o[1m/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBServiceAdvertiser.m:128:20: [0m[0;1;35mwarning: [0m[1m'IOBluetoothAddServiceDict' is deprecated: first
+o      deprecated in OS X 10.9 [-Wdeprecated-declarations][0m
+o        IOReturn status = IOBluetoothAddServiceDict((CFDictionaryRef) sdpEntries, &serviceRecordRef);
+o[0;1;32m                          ^
+o[0mIn file included from /Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBServiceAdvertiser.m:26:
+o[1m/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOBluetooth.framework/Headers/IOBluetoothUserLib.h:231:17: [0m[0;1;30mnote: [0m
+o      'IOBluetoothAddServiceDict' declared here[0m
+oextern IOReturn IOBluetoothAddServiceDict(CFDictionaryRef serviceDict, IOBluetoothSDPServiceRecordRef *outServiceRecord) DEPRECATED_IN_MAC_OS_X_VERSION_10_9_AND_LATER;
+o[0;1;32m                ^
+o[0m[1m/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBServiceAdvertiser.m:142:3: [0m[0;1;35mwarning: [0m[1mimplicit declaration of function
+o      'IOBluetoothObjectRelease' is invalid in C99 [-Wimplicit-function-declaration][0m
+o                IOBluetoothObjectRelease(serviceRecordRef);
+o[0;1;32m                ^
+o[0m[1m/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBServiceAdvertiser.m:151:9: [0m[0;1;35mwarning: [0m[1m'IOBluetoothRemoveServiceWithRecordHandle' is deprecated:
+o      first deprecated in OS X 10.9 [-Wdeprecated-declarations][0m
+o        return IOBluetoothRemoveServiceWithRecordHandle(handle);
+o[0;1;32m               ^
+o[0mIn file included from /Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBServiceAdvertiser.m:26:
+o[1m/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOBluetooth.framework/Headers/IOBluetoothUserLib.h:245:17: [0m[0;1;30mnote: [0m
+o      'IOBluetoothRemoveServiceWithRecordHandle' declared here[0m
+oextern IOReturn IOBluetoothRemoveServiceWithRecordHandle( BluetoothSDPServiceRecordHandle serviceRecordHandle ) DEPRECATED_IN_MAC_OS_X_VERSION_10_9_AND_LATER;
+o[0;1;32m                ^
+o[0m3 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBServiceAdvertiser.m210"[1mCompileC[0m build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBServiceAdvertiser.o [1mBBServiceAdvertiser.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler7786852be7f9b841^317bd12be7f9b841^-2343"[1m/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBServiceAdvertiser.m:128:20: [0m[0;1;35mwarning: [0m[1m'IOBluetoothAddServiceDict' is deprecated: first      deprecated in OS X 10.9 [-Wdeprecated-declarations][0m        IOReturn status = IOBluetoothAddServiceDict((CFDictionaryRef) sdpEntries, &serviceRecordRef);[0;1;32m                          ^[0mIn file included from /Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBServiceAdvertiser.m:26:[1m/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOBluetooth.framework/Headers/IOBluetoothUserLib.h:231:17: [0m[0;1;30mnote: [0m      'IOBluetoothAddServiceDict' declared here[0mextern IOReturn IOBluetoothAddServiceDict(CFDictionaryRef serviceDict, IOBluetoothSDPServiceRecordRef *outServiceRecord) DEPRECATED_IN_MAC_OS_X_VERSION_10_9_AND_LATER;[0;1;32m                ^[0m[1m/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBServiceAdvertiser.m:142:3: [0m[0;1;35mwarning: [0m[1mimplicit declaration of function      'IOBluetoothObjectRelease' is invalid in C99 [-Wimplicit-function-declaration][0m                IOBluetoothObjectRelease(serviceRecordRef);[0;1;32m                ^[0m[1m/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBServiceAdvertiser.m:151:9: [0m[0;1;35mwarning: [0m[1m'IOBluetoothRemoveServiceWithRecordHandle' is deprecated:      first deprecated in OS X 10.9 [-Wdeprecated-declarations][0m        return IOBluetoothRemoveServiceWithRecordHandle(handle);[0;1;32m               ^[0mIn file included from /Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBServiceAdvertiser.m:26:[1m/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOBluetooth.framework/Headers/IOBluetoothUserLib.h:245:17: [0m[0;1;30mnote: [0m      'IOBluetoothRemoveServiceWithRecordHandle' declared here[0mextern IOReturn IOBluetoothRemoveServiceWithRecordHandle( BluetoothSDPServiceRecordHandle serviceRecordHandle ) DEPRECATED_IN_MAC_OS_X_VERSION_10_9_AND_LATER;[0;1;32m                ^[0m3 warnings generated.3(36%IDEClangDiagnosticActivityLogMessage2@72"'IOBluetoothAddServiceDict' is deprecated: first deprecated in OS X 10.9-419030827#18446744073709551615#0#1(2@41"'IOBluetoothAddServiceDict' declared here-419030827#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@182"file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOBluetooth.framework/Headers/IOBluetoothUserLib.h0000000000000000^230#16#230#16#11734#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@113"file:///Users/Gageek/Dropbox/Computer%20Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBServiceAdvertiser.m0000000000000000^127#19#127#19#4147#0#12"Deprecations--2@77"Implicit declaration of function 'IOBluetoothObjectRelease' is invalid in C99-419030827#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file:///Users/Gageek/Dropbox/Computer%20Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBServiceAdvertiser.m0000000000000000^141#2#141#2#4633#0#14"Semantic Issue--2@87"'IOBluetoothRemoveServiceWithRecordHandle' is deprecated: first deprecated in OS X 10.9-419030827#18446744073709551615#0#1(2@56"'IOBluetoothRemoveServiceWithRecordHandle' declared here-419030827#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@182"file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOBluetooth.framework/Headers/IOBluetoothUserLib.h0000000000000000^244#16#244#16#12537#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@113"file:///Users/Gageek/Dropbox/Computer%20Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBServiceAdvertiser.m0000000000000000^150#8#150#8#4778#0#12"Deprecations--0#0#1#-19%DVTDocumentLocation4@113"file:///Users/Gageek/Dropbox/Computer%20Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBServiceAdvertiser.m0000000000000000^3126"[1mCompileC[0m build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBServiceAdvertiser.o [1mBBServiceAdvertiser.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=179 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -Wno-sign-conversion -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/LightAquaBlue.hmap -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/DerivedSources/i386 -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/DerivedSources -F/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/Release -include /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/LightAquaBlue_Prefix-convockacmohgsgglnmrpktmnwaq/LightAquaBlue_Prefix.pch -MMD -MT dependencies -MF /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBServiceAdvertiser.d --serialize-diagnostics /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBServiceAdvertiser.dia -c /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBServiceAdvertiser.m -o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBServiceAdvertiser.o36"44E48B24-50E2-440D-979B-E1FAB2AC370C-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CCompileC build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBStreamingInputStream.o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBStreamingInputStream.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419030822.915642
+e419030827.203230
+r1
+xCompileC
+xbuild/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBStreamingInputStream.o
+x/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBStreamingInputStream.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBStreamingInputStream.m
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBStreamingInputStream.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Compile /Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBStreamingInputStream.m216"[1mCompileC[0m build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBStreamingInputStream.o [1mBBStreamingInputStream.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler3788ea26e7f9b841^9e06342be7f9b841^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/Gageek/Dropbox/Computer%20Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBStreamingInputStream.m0000000000000000^3144"[1mCompileC[0m build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBStreamingInputStream.o [1mBBStreamingInputStream.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=179 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -Wno-sign-conversion -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/LightAquaBlue.hmap -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/DerivedSources/i386 -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/DerivedSources -F/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/Release -include /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/LightAquaBlue_Prefix-convockacmohgsgglnmrpktmnwaq/LightAquaBlue_Prefix.pch -MMD -MT dependencies -MF /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBStreamingInputStream.d --serialize-diagnostics /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBStreamingInputStream.dia -c /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBStreamingInputStream.m -o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBStreamingInputStream.o36"743FD9D2-4F8D-417D-A327-3DE4F8C089A3-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CCompileC build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBStreamingOutputStream.o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBStreamingOutputStream.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419030827.641883
+e419030827.765376
+r1
+xCompileC
+xbuild/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBStreamingOutputStream.o
+x/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBStreamingOutputStream.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBStreamingOutputStream.m
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBStreamingOutputStream.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Compile /Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBStreamingOutputStream.m218"[1mCompileC[0m build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBStreamingOutputStream.o [1mBBStreamingOutputStream.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler8b6ba42be7f9b841^04ffc32be7f9b841^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/Gageek/Dropbox/Computer%20Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBStreamingOutputStream.m0000000000000000^3150"[1mCompileC[0m build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBStreamingOutputStream.o [1mBBStreamingOutputStream.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=179 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -Wno-sign-conversion -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/LightAquaBlue.hmap -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/DerivedSources/i386 -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/DerivedSources -F/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/Release -include /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/LightAquaBlue_Prefix-convockacmohgsgglnmrpktmnwaq/LightAquaBlue_Prefix.pch -MMD -MT dependencies -MF /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBStreamingOutputStream.d --serialize-diagnostics /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBStreamingOutputStream.dia -c /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBStreamingOutputStream.m -o /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBStreamingOutputStream.o36"04C5500B-B113-495A-9530-10FEB3290DC1-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CCopyPlistFile /Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/OBEXFileTransferDictionary.plist OBEXFileTransferDictionary.plist
+s419030802.695945
+e419030802.749650
+r1
+xCopyPlistFile
+x/Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/OBEXFileTransferDictionary.plist
+xOBEXFileTransferDictionary.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy OBEXFileTransferDictionary.plist152"[1mCopyPlistFile[0m /Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/OBEXFileTransferDictionary.plist OBEXFileTransferDictionary.pliste944b212e7f9b841^96e9bf12e7f9b841^---0#0#1#-19%DVTDocumentLocation2@124"file:///Users/Gageek/Dropbox/Computer%20Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/OBEXFileTransferDictionary.plist0000000000000000^377"[1mCopyPlistFile[0m /Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/OBEXFileTransferDictionary.plist OBEXFileTransferDictionary.plist    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    builtin-copyPlist --outdir /Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources -- OBEXFileTransferDictionary.plist36"2B20E77F-E966-4F9E-949E-111937146250-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CCopyPlistFile /Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/OBEXObjectPushDictionary.plist OBEXObjectPushDictionary.plist
+s419030802.696809
+e419030802.738526
+r1
+xCopyPlistFile
+x/Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/OBEXObjectPushDictionary.plist
+xOBEXObjectPushDictionary.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Copy OBEXObjectPushDictionary.plist148"[1mCopyPlistFile[0m /Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/OBEXObjectPushDictionary.plist OBEXObjectPushDictionary.plist1974b212e7f9b841^8925bd12e7f9b841^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/Gageek/Dropbox/Computer%20Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/OBEXObjectPushDictionary.plist0000000000000000^371"[1mCopyPlistFile[0m /Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/OBEXObjectPushDictionary.plist OBEXObjectPushDictionary.plist    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    builtin-copyPlist --outdir /Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources -- OBEXObjectPushDictionary.plist36"07EFA77F-931C-48BF-A6F8-93549A21DD27-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CCopyPlistFile /Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/SerialPortDictionary.plist SerialPortDictionary.plist
+s419030802.697266
+e419030802.738443
+r1
+xCopyPlistFile
+x/Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/SerialPortDictionary.plist
+xSerialPortDictionary.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Copy SerialPortDictionary.plist140"[1mCopyPlistFile[0m /Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/SerialPortDictionary.plist SerialPortDictionary.plist7d93b212e7f9b841^5113bd12e7f9b841^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/Gageek/Dropbox/Computer%20Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/SerialPortDictionary.plist0000000000000000^359"[1mCopyPlistFile[0m /Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/SerialPortDictionary.plist SerialPortDictionary.plist    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    builtin-copyPlist --outdir /Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources -- SerialPortDictionary.plist36"76D84623-E893-4590-89EE-4A02A320B8A0-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CCopyStringsFile /Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s419030802.695663
+e419030802.720586
+r1
+xCopyStringsFile
+x/Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy English.lproj/InfoPlist.strings152"[1mCopyStringsFile[0m /Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings9834b212e7f9b841^a870b812e7f9b841^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/Gageek/Dropbox/Computer%20Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/English.lproj/InfoPlist.strings0000000000000000^450"[1mCopyStringsFile[0m /Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir /Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/English.lproj -- English.lproj/InfoPlist.strings36"EF859492-6AE8-4BE4-897A-532AB6C5FAF6-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CCpHeader BBBluetoothChannelDelegate.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBBluetoothChannelDelegate.h
+s419030802.684197
+e419030802.694996
+r1
+xCpHeader
+xBBBluetoothChannelDelegate.h
+x/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBBluetoothChannelDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Copy /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBBluetoothChannelDelegate.h145"[1mCpHeader[0m BBBluetoothChannelDelegate.h [1m/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBBluetoothChannelDelegate.h[0mf94baf12e7f9b841^58e2b112e7f9b841^---0#0#1#-19%DVTDocumentLocation2@98"file:///Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBBluetoothChannelDelegate.h0034908fddffdf42^652"[1mCpHeader[0m BBBluetoothChannelDelegate.h [1m/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBBluetoothChannelDelegate.h[0m    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothChannelDelegate.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers36"7B2EC82E-F49E-4C81-BEAC-C6EEB76A570B-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CCpHeader BBBluetoothOBEXClient.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBBluetoothOBEXClient.h
+s419030802.587228
+e419030802.622706
+r1
+xCpHeader
+xBBBluetoothOBEXClient.h
+x/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBBluetoothOBEXClient.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Copy /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBBluetoothOBEXClient.h135"[1mCpHeader[0m BBBluetoothOBEXClient.h [1m/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBBluetoothOBEXClient.h[0m6e6c9612e7f9b841^cb699f12e7f9b841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBBluetoothOBEXClient.h0034908fddffdf42^637"[1mCpHeader[0m BBBluetoothOBEXClient.h [1m/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBBluetoothOBEXClient.h[0m    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothOBEXClient.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers36"439CD812-F9D5-4512-B45E-B4D3C8AFE396-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CCpHeader BBBluetoothOBEXServer.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBBluetoothOBEXServer.h
+s419030802.587376
+e419030802.628471
+r1
+xCpHeader
+xBBBluetoothOBEXServer.h
+x/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBBluetoothOBEXServer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Copy /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBBluetoothOBEXServer.h135"[1mCpHeader[0m BBBluetoothOBEXServer.h [1m/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBBluetoothOBEXServer.h[0m00729612e7f9b841^dee3a012e7f9b841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBBluetoothOBEXServer.h0034908fddffdf42^637"[1mCpHeader[0m BBBluetoothOBEXServer.h [1m/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBBluetoothOBEXServer.h[0m    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBBluetoothOBEXServer.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers36"C51D6F88-1BFE-430C-AC35-354E0FB7B230-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CCpHeader BBLocalDevice.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBLocalDevice.h
+s419030802.588549
+e419030802.626959
+r1
+xCpHeader
+xBBLocalDevice.h
+x/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBLocalDevice.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Copy /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBLocalDevice.h119"[1mCpHeader[0m BBLocalDevice.h [1m/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBLocalDevice.h[0mbabb9612e7f9b841^9181a012e7f9b841^---0#0#1#-19%DVTDocumentLocation2@85"file:///Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBLocalDevice.h0034908fddffdf42^613"[1mCpHeader[0m BBLocalDevice.h [1m/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBLocalDevice.h[0m    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBLocalDevice.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers36"6B49AC7A-755D-4AF6-91B2-2AA94247A3F7-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CCpHeader BBMutableOBEXHeaderSet.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBMutableOBEXHeaderSet.h
+s419030802.615711
+e419030802.633702
+r1
+xCpHeader
+xBBMutableOBEXHeaderSet.h
+x/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBMutableOBEXHeaderSet.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Copy /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBMutableOBEXHeaderSet.h137"[1mCpHeader[0m BBMutableOBEXHeaderSet.h [1m/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBMutableOBEXHeaderSet.h[0mdaad9d12e7f9b841^1d3da212e7f9b841^---0#0#1#-19%DVTDocumentLocation2@94"file:///Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBMutableOBEXHeaderSet.h0034908fddffdf42^640"[1mCpHeader[0m BBMutableOBEXHeaderSet.h [1m/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBMutableOBEXHeaderSet.h[0m    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBMutableOBEXHeaderSet.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers36"7F4CBF80-347C-479E-B7D4-18790389D3FC-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CCpHeader BBOBEXHeaderSet.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBOBEXHeaderSet.h
+s419030802.622947
+e419030802.628045
+r1
+xCpHeader
+xBBOBEXHeaderSet.h
+x/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBOBEXHeaderSet.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Copy /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBOBEXHeaderSet.h123"[1mCpHeader[0m BBOBEXHeaderSet.h [1m/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBOBEXHeaderSet.h[0m1e899f12e7f9b841^c1c7a012e7f9b841^---0#0#1#-19%DVTDocumentLocation2@87"file:///Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBOBEXHeaderSet.h0034908fddffdf42^619"[1mCpHeader[0m BBOBEXHeaderSet.h [1m/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBOBEXHeaderSet.h[0m    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXHeaderSet.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers36"06845AB8-F6C2-48BD-A264-FE222655A7E2-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CCpHeader BBOBEXRequest.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBOBEXRequest.h
+s419030802.627174
+e419030802.633632
+r1
+xCpHeader
+xBBOBEXRequest.h
+x/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBOBEXRequest.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Copy /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBOBEXRequest.h119"[1mCpHeader[0m BBOBEXRequest.h [1m/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBOBEXRequest.h[0m309fa012e7f9b841^1138a212e7f9b841^---0#0#1#-19%DVTDocumentLocation2@85"file:///Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBOBEXRequest.h0034908fddffdf42^613"[1mCpHeader[0m BBOBEXRequest.h [1m/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBOBEXRequest.h[0m    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXRequest.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers36"AE42E21D-18E2-49ED-88A2-39215B983937-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CCpHeader BBOBEXRequestHandler.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBOBEXRequestHandler.h
+s419030802.628287
+e419030802.682547
+r1
+xCpHeader
+xBBOBEXRequestHandler.h
+x/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBOBEXRequestHandler.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Copy /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBOBEXRequestHandler.h133"[1mCpHeader[0m BBOBEXRequestHandler.h [1m/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBOBEXRequestHandler.h[0meae8a012e7f9b841^a3c8ae12e7f9b841^---0#0#1#-19%DVTDocumentLocation2@92"file:///Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBOBEXRequestHandler.h0034908fddffdf42^634"[1mCpHeader[0m BBOBEXRequestHandler.h [1m/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBOBEXRequestHandler.h[0m    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXRequestHandler.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers36"847E3361-8220-4F73-809F-BAF1BA5F602A-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CCpHeader BBOBEXResponse.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBOBEXResponse.h
+s419030802.685820
+e419030802.694952
+r1
+xCpHeader
+xBBOBEXResponse.h
+x/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBOBEXResponse.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Copy /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBOBEXResponse.h121"[1mCpHeader[0m BBOBEXResponse.h [1m/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBOBEXResponse.h[0m26aaaf12e7f9b841^eeeeb112e7f9b841^---0#0#1#-19%DVTDocumentLocation2@86"file:///Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBOBEXResponse.h0034908fddffdf42^616"[1mCpHeader[0m BBOBEXResponse.h [1m/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBOBEXResponse.h[0m    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBOBEXResponse.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers36"3D72DB8A-A437-4952-9D07-37AD6CEFB7C8-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CCpHeader BBServiceAdvertiser.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBServiceAdvertiser.h
+s419030802.629134
+e419030802.682802
+r1
+xCpHeader
+xBBServiceAdvertiser.h
+x/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBServiceAdvertiser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Copy /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBServiceAdvertiser.h131"[1mCpHeader[0m BBServiceAdvertiser.h [1m/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBServiceAdvertiser.h[0m4c1ca112e7f9b841^e0d9ae12e7f9b841^---0#0#1#-19%DVTDocumentLocation2@91"file:///Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBServiceAdvertiser.h0034908fddffdf42^631"[1mCpHeader[0m BBServiceAdvertiser.h [1m/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBServiceAdvertiser.h[0m    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBServiceAdvertiser.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers36"69446687-B822-4916-A240-AAD131E3FCED-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CCpHeader BBStreamingInputStream.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBStreamingInputStream.h
+s419030802.587748
+e419030802.615480
+r1
+xCpHeader
+xBBStreamingInputStream.h
+x/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBStreamingInputStream.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Copy /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBStreamingInputStream.h137"[1mCpHeader[0m BBStreamingInputStream.h [1m/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBStreamingInputStream.h[0me59a9612e7f9b841^6d909d12e7f9b841^---0#0#1#-19%DVTDocumentLocation2@94"file:///Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBStreamingInputStream.h0034908fddffdf42^640"[1mCpHeader[0m BBStreamingInputStream.h [1m/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBStreamingInputStream.h[0m    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBStreamingInputStream.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers36"F817EC51-1DF5-4A39-9EE7-4C3D2E70447D-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CCpHeader BBStreamingOutputStream.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBStreamingOutputStream.h
+s419030802.635730
+e419030802.682915
+r1
+xCpHeader
+xBBStreamingOutputStream.h
+x/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBStreamingOutputStream.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Copy /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBStreamingOutputStream.h139"[1mCpHeader[0m BBStreamingOutputStream.h [1m/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBStreamingOutputStream.h[0m7cd1a212e7f9b841^9ae9ae12e7f9b841^---0#0#1#-19%DVTDocumentLocation2@95"file:///Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBStreamingOutputStream.h0034908fddffdf42^643"[1mCpHeader[0m BBStreamingOutputStream.h [1m/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/BBStreamingOutputStream.h[0m    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BBStreamingOutputStream.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers36"76200C29-BFED-4B63-966E-49A5B04CE715-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CCpHeader LightAquaBlue.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/LightAquaBlue.h
+s419030802.633968
+e419030802.683357
+r1
+xCpHeader
+xLightAquaBlue.h
+x/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/LightAquaBlue.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Copy /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/LightAquaBlue.h119"[1mCpHeader[0m LightAquaBlue.h [1m/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/LightAquaBlue.h[0maf5da212e7f9b841^49f4ae12e7f9b841^---0#0#1#-19%DVTDocumentLocation2@85"file:///Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/LightAquaBlue.h0034908fddffdf42^613"[1mCpHeader[0m LightAquaBlue.h [1m/Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers/LightAquaBlue.h[0m    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/LightAquaBlue.h /Library/Frameworks/LightAquaBlue.framework/Versions/A/Headers36"A155E061-14DF-49E0-B9AD-5A943C798AA9-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CCpResource BridgeSupport /Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/BridgeSupport
+s419030802.720869
+e419030802.749226
+r1
+xCpResource
+xBridgeSupport
+x/Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/BridgeSupport
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Copy /Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/BridgeSupport119"[1mCpResource[0m BridgeSupport [1m/Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/BridgeSupport[0mdc9eb812e7f9b841^f8debf12e7f9b841^---0#0#1#-19%DVTDocumentLocation2@85"file:///Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/BridgeSupport0034908fddffdf42^613"[1mCpResource[0m BridgeSupport [1m/Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/BridgeSupport[0m    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/BridgeSupport /Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources36"1D1D6211-9910-437B-89F7-F1B4456283B8-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CLd /Library/Frameworks/LightAquaBlue.framework/Versions/A/LightAquaBlue normal i386
+s419030828.098681
+e419030833.369295
+r1
+xLd
+x/Library/Frameworks/LightAquaBlue.framework/Versions/A/LightAquaBlue
+xnormal
+xi386
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/LightAquaBlue.LinkFileList
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBBluetoothOBEXClient.o
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBBluetoothOBEXServer.o
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBStreamingInputStream.o
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBLocalDevice.o
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBMutableOBEXHeaderSet.o
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXHeaderSet.o
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXRequest.o
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXRequestHandler.o
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBServiceAdvertiser.o
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBStreamingOutputStream.o
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBBluetoothChannelDelegate.o
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/BBOBEXResponse.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOBluetooth.framework/IOBluetooth
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.eprintf.a
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOBluetooth.framework/Versions/A/Frameworks/CoreBluetooth.framework/Versions/A/CoreBluetooth
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Link /Library/Frameworks/LightAquaBlue.framework/Versions/A/LightAquaBlue91"[1mLd[0m /Library/Frameworks/LightAquaBlue.framework/Versions/A/LightAquaBlue normal i386e256192ce7f9b841^838a5e31e7f9b841^---0#0#1#--1376"[1mLd[0m /Library/Frameworks/LightAquaBlue.framework/Versions/A/LightAquaBlue normal i386    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/Release -F/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/Release -filelist /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/LightAquaBlue.LinkFileList -install_name /Library/Frameworks/LightAquaBlue.framework/Versions/A/LightAquaBlue -mmacosx-version-min=10.9 -fobjc-link-runtime -framework Cocoa -framework IOBluetooth -single_module -compatibility_version 1 -current_version 1 -Xlinker -dependency_info -Xlinker /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/Objects-normal/i386/LightAquaBlue_dependency_info.dat -o /Library/Frameworks/LightAquaBlue.framework/Versions/A/LightAquaBlue36"0BC9B0BC-9642-4895-AD70-C20AFA8DF213-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CProcessInfoPlistFile /Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/Info.plist /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/Info.plist
+s419030802.215321
+e419030802.337949
+r1
+xProcessInfoPlistFile
+x/Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/Info.plist
+x/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Process /Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/Info.plist123"[1mProcessInfoPlistFile[0m /Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/Info.plist [1mInfo.plist[0m999a4812e7f9b841^d3835612e7f9b841^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/Gageek/Dropbox/Computer%20Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/Info.plist0000000000000000^457"[1mProcessInfoPlistFile[0m /Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/Info.plist [1mInfo.plist[0m    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    builtin-infoPlistUtility /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/Info.plist -expandbuildsettings -platform macosx -o /Library/Frameworks/LightAquaBlue.framework/Versions/A/Resources/Info.plist36"B8720F37-111E-4C0E-91DB-6503AF1B17FA-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CProcessPCH /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/LightAquaBlue_Prefix-convockacmohgsgglnmrpktmnwaq/LightAquaBlue_Prefix.pch.pch LightAquaBlue_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419030802.751342
+e419030822.913900
+r1
+xProcessPCH
+x/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/LightAquaBlue_Prefix-convockacmohgsgglnmrpktmnwaq/LightAquaBlue_Prefix.pch.pch
+xLightAquaBlue_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/LightAquaBlue_Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile LightAquaBlue_Prefix.pch306"[1mProcessPCH[0m /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/LightAquaBlue_Prefix-convockacmohgsgglnmrpktmnwaq/LightAquaBlue_Prefix.pch.pch LightAquaBlue_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler4f79c012e7f9b841^bef5e926e7f9b841^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/Gageek/Dropbox/Computer%20Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/LightAquaBlue_Prefix.pch0000000000000000^3073"[1mProcessPCH[0m /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/LightAquaBlue_Prefix-convockacmohgsgglnmrpktmnwaq/LightAquaBlue_Prefix.pch.pch LightAquaBlue_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=179 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -Wno-sign-conversion -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/LightAquaBlue.hmap -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/DerivedSources/i386 -I/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/LightAquaBlue.build/Release/LightAquaBlue.build/DerivedSources -F/Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/Release --serialize-diagnostics /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/LightAquaBlue_Prefix-convockacmohgsgglnmrpktmnwaq/LightAquaBlue_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/LightAquaBlue_Prefix-convockacmohgsgglnmrpktmnwaq/LightAquaBlue_Prefix.pch.d -c /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/LightAquaBlue_Prefix.pch -o /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/LightAquaBlue_Prefix-convockacmohgsgglnmrpktmnwaq/LightAquaBlue_Prefix.pch.pch36"F8083F86-6DB3-4327-A4B1-547F530CF247-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CSetMode u+w,go-w,a+rX /Library/Frameworks/LightAquaBlue.framework
+s419030834.075319
+e419030834.101101
+r1
+xSetMode
+xu+w,go-w,a+rX
+x/Library/Frameworks/LightAquaBlue.framework
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"[1mSetMode[0m u+w,go-w,a+rX [1m/Library/Frameworks/LightAquaBlue.framework[0m81"[1mSetMode[0m u+w,go-w,a+rX [1m/Library/Frameworks/LightAquaBlue.framework[0m39601332e7f9b841^96eb1932e7f9b841^---0#0#1#-19%DVTDocumentLocation2@51"file:///Library/Frameworks/LightAquaBlue.framework/0000000000000000^251"[1mSetMode[0m u+w,go-w,a+rX [1m/Library/Frameworks/LightAquaBlue.framework[0m    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    /bin/chmod -RH u+w,go-w,a+rX /Library/Frameworks/LightAquaBlue.framework36"3FFA46FA-6B55-4E6B-9F53-63EF893DFBA7-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CSetOwnerAndGroup root:wheel /Library/Frameworks/LightAquaBlue.framework
+s419030833.881395
+e419030834.073707
+r1
+xSetOwnerAndGroup
+xroot:wheel
+x/Library/Frameworks/LightAquaBlue.framework
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"[1mSetOwnerAndGroup[0m root:wheel [1m/Library/Frameworks/LightAquaBlue.framework[0m87"[1mSetOwnerAndGroup[0m root:wheel [1m/Library/Frameworks/LightAquaBlue.framework[0m14b0e131e7f9b841^66f51232e7f9b841^---0#0#1#-19%DVTDocumentLocation2@51"file:///Library/Frameworks/LightAquaBlue.framework/0000000000000000^259"[1mSetOwnerAndGroup[0m root:wheel [1m/Library/Frameworks/LightAquaBlue.framework[0m    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    /usr/sbin/chown -RH root:wheel /Library/Frameworks/LightAquaBlue.framework36"8F5C19A6-4E19-404B-AD93-668D265181A7-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CStrip /Library/Frameworks/LightAquaBlue.framework/Versions/A/LightAquaBlue
+s419030833.511320
+e419030833.881010
+r1
+xStrip
+x/Library/Frameworks/LightAquaBlue.framework/Versions/A/LightAquaBlue
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"[1mStrip[0m [1m/Library/Frameworks/LightAquaBlue.framework/Versions/A/LightAquaBlue[0m90"[1mStrip[0m [1m/Library/Frameworks/LightAquaBlue.framework/Versions/A/LightAquaBlue[0m33f98231e7f9b841^338ae131e7f9b841^---0#0#1#-19%DVTDocumentLocation2@75"file:///Library/Frameworks/LightAquaBlue.framework/Versions/A/LightAquaBlue0000000000000000^352"[1mStrip[0m [1m/Library/Frameworks/LightAquaBlue.framework/Versions/A/LightAquaBlue[0m    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Library/Frameworks/LightAquaBlue.framework/Versions/A/LightAquaBlue36"91290BD6-F0F8-4709-AC59-0878767811EC-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CSymLink /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/Release/LightAquaBlue.framework /Library/Frameworks/LightAquaBlue.framework
+s419030802.338590
+e419030802.586680
+r1
+xSymLink
+x/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/Release/LightAquaBlue.framework
+x/Library/Frameworks/LightAquaBlue.framework
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Process /Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/Release/LightAquaBlue.framework97"[1mSymLink[0m build/Release/LightAquaBlue.framework /Library/Frameworks/LightAquaBlue.framework95d35612e7f9b841^1f319612e7f9b841^---0#0#1#--372"[1mSymLink[0m build/Release/LightAquaBlue.framework /Library/Frameworks/LightAquaBlue.framework    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    /bin/ln -sf /Library/Frameworks/LightAquaBlue.framework /Users/Gageek/Dropbox/Computer\ Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue/build/Release/LightAquaBlue.framework36"222C2B98-84AB-4AEB-BA1B-362F7D204826-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
+CTouch /Library/Frameworks/LightAquaBlue.framework
+s419030833.370829
+e419030833.510857
+r1
+xTouch
+x/Library/Frameworks/LightAquaBlue.framework
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Touch /Library/Frameworks/LightAquaBlue.framework57"[1mTouch[0m /Library/Frameworks/LightAquaBlue.frameworkf4fb5e31e7f9b841^25ca8231e7f9b841^---0#0#1#--216"[1mTouch[0m /Library/Frameworks/LightAquaBlue.framework    cd "/Users/Gageek/Dropbox/Computer Science/lahacks/lightblue-0.4/src/mac/LightAquaBlue"    /usr/bin/touch -c /Library/Frameworks/LightAquaBlue.framework36"42B3513B-1258-461C-87E0-42FB0918B315-
+b02872132-B977-44B8-BC41-F503DA72AE4C
+
