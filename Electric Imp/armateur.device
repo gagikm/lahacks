@@ -1,0 +1,29 @@
+Teensy_1 <- hardware.pin2;
+Teensy_1.configure(DIGITAL_OUT_OD);
+Teensy_1.write(1);
+
+Teensy_2 <- hardware.pin5;
+Teensy_2.configure(DIGITAL_OUT_OD);
+Teensy_2.write(1);
+
+//Register event handlers for actions passed from the agent
+agent.on("Teensy_1", function(state) {
+    try {
+        server.log("Received the following state for moveForward " + state);
+        moveForward.write(state);
+    } catch (ex) {
+        server.log("error setting Teensy_1: " + ex);
+    }
+});
+
+agent.on("Teensy_2", function(state) {
+    try {
+        server.log("Received the following state for moveBackward " + state);
+        moveBackward.write(state);
+    } catch (ex) {
+        server.log("error setting Teensy_2: " + ex);
+    }
+});
+
+server.log("Hello");
+server.log("Device started");

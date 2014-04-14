@@ -1,0 +1,67 @@
+server.log("Agent started:" + http.agenturl());
+
+function requestHandler(request, response)  {
+
+    try { // Try provides us with exception handling, in case a runtime error occurs
+
+        // check if the user sent led as a query parameter
+        if ("led" in request.query) {
+            // if they did, and led=1.. set our variable to 1
+            if ((request.query.led == "1") || (request.query.led == "0"))
+            {
+                // convert the led query parameter to an integer
+                local ledStatus = request.query.led.tointeger();
+
+                // send "led" message to device, and send ledState as the data
+                device.send("led", ledStatus); 
+            }
+        }
+        // check if an "rgb" query was received:
+        if ("rgb" in request.query) {
+            // colors are sent as a string, we've got to do some work to convert
+            // them to a number, which is eventually what we'll need to do
+            // pwm on our RGB led pins.
+            local color = request.query.rgb; // get the query into a variable
+            if (color[0] == '#') { // The request should start with '#' (%23)
+                // We'll construct a table with three parameters: r, g, and b
+                // Do some work to convert r, g, and b from ASCII characters
+                // to 0-255 values.
+                local returnTable = {
+                    r = ASCIItoHex(color[1])*16 + ASCIItoHex(color[2])
+                    g = ASCIItoHex(color[3])*16 + ASCIItoHex(color[4])
+                    b = ASCIItoHex(color[5])*16 + ASCIItoHex(color[6])
+                };
+                device.send("rgb", returnTable); // send our color table to the imp
+            }
+        }
+        // check if a "user" query was received.
+        if ("user" in request.query) {
+            device.send("user", request.query.user); // Simply pass the value out to the imp.
+        }
+        // check if a "timer" query was received:
+        if ("timer" in request.query) {
+            // convert to an integer, and pass it out to the imp.
+            device.send("timer", request.query.timer.tointeger());
+        }
+        // send a response back saying everything was OK.
+        response.send(200, "OK");
+    } 
+    catch (ex) {
+        response.send(500, "Internal Server Error: " + ex);
+    }
+}
+
+
+//Register event handlers for leapMotion updates
+leap_requests.on("/", function(data) {
+    if ("Teensy_1" in data) {
+        server.log("Agent received moveForward state " + data.moveForward + " from LeapMotion. Sending to device.");
+        device.send("Teensy_1", data.moveForward.tointeger());
+    }
+    
+    if ("Teensy_2" in data) {
+        server.log("Agent received moveBackward state " + data.moveBackward + " from LeapMotion. Sending to device.");
+        device.send("Teensy_2", data.moveBackward.tointeger());
+    }
+});
+
