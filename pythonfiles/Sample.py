@@ -11,7 +11,7 @@ from Leap import CircleGesture, KeyTapGesture, ScreenTapGesture, SwipeGesture
 import lightblue
 from lightblue import *
 s = socket()
-debug = False
+debug = True
 # Best monkey patching ever
 if debug:
     s.send = lambda x: x
@@ -43,11 +43,11 @@ class SampleListener(Leap.Listener):
     def on_frame(self, controller):
         start = time.time()
         frame = controller.frame()
-        print "Frame id: %d, timestamp: %d, hands: %d, fingers: %d, tools: %d, gestures: %d" % (
-                  frame.id, frame.timestamp, len(frame.hands), len(frame.fingers), len(frame.tools), len(frame.gestures()))
-
         if(len(frame.hands)!=0 and len(frame.hands)!=2):
             # Get the most recent frame and report some basic information
+            #print "Frame id: %d, timestamp: %d, hands: %d, fingers: %d, tools: %d, gestures: %d" % (
+            #      frame.id, frame.timestamp, len(frame.hands), len(frame.fingers), len(frame.tools), len(frame.gestures()))
+
             if not frame.hands.is_empty:
                 # Get the first hand
                 hand = frame.hands[0]
@@ -107,7 +107,7 @@ class SampleListener(Leap.Listener):
 
                 # Check if the hand has any fingers
                 fingers = hand.fingers
-                CLAMP_TIME = 40 
+                CLAMP_TIME = 30
                 if (len(fingers))>1:
                     # Calculate the hand's average finger tip position
                     self.clamp=max(0, self.clamp - 1)
@@ -124,6 +124,10 @@ class SampleListener(Leap.Listener):
 
 
 
+                # Get the hand's sphere radius and palm position
+                print "Hand sphere radius: %f mm, palm position: %s" % (
+                      hand.sphere_radius, hand.palm_position)
+
                 # Get the hand's normal vector and direction
                 normal = hand.palm_normal
                 direction = hand.direction
@@ -137,7 +141,6 @@ class SampleListener(Leap.Listener):
                 elif(hand_pitch > -20) and (hand_pitch < -10):
                     motor1 = "1%f\n" % (-0.4) #///////////////////////////////////////////////////////// WRIST DOWN
                     s.send(motor1)
-
                 """
                 # Gestures
                 for gesture in frame.gestures():
@@ -179,7 +182,7 @@ class SampleListener(Leap.Listener):
                                 screentap.position, screentap.direction )
                 """
             # print "%f seconds" % (time.time() - start)
-            print fingers[0]
+
     def state_string(self, state):
         if state == Leap.Gesture.STATE_START:
             return "STATE_START"
